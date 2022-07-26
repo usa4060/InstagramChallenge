@@ -13,6 +13,58 @@
 		8469D758288EC6A3002CFADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8469D756288EC6A3002CFADC /* Main.storyboard */; };
 		8469D75A288EC6A5002CFADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8469D759288EC6A5002CFADC /* Assets.xcassets */; };
 		8469D75D288EC6A5002CFADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8469D75B288EC6A5002CFADC /* LaunchScreen.storyboard */; };
+		84D908DB288ECAEE002825C6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908C2288ECAEE002825C6 /* Constant.swift */; };
+		84D908DC288ECAEE002825C6 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908C4288ECAEE002825C6 /* Date.swift */; };
+		84D908DD288ECAEE002825C6 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908C5288ECAEE002825C6 /* UIView.swift */; };
+		84D908DE288ECAEE002825C6 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908C6288ECAEE002825C6 /* UIColor.swift */; };
+		84D908DF288ECAEE002825C6 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908C7288ECAEE002825C6 /* String.swift */; };
+		84D908E0288ECAEE002825C6 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908C8288ECAEE002825C6 /* UIButton.swift */; };
+		84D908E1288ECAEE002825C6 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908C9288ECAEE002825C6 /* UIImage.swift */; };
+		84D908E2288ECAEE002825C6 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908CA288ECAEE002825C6 /* UIViewController.swift */; };
+		84D908E3288ECAEE002825C6 /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908CB288ECAEE002825C6 /* UINavigationBar.swift */; };
+		84D908E4288ECAEE002825C6 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908CC288ECAEE002825C6 /* UIImageView.swift */; };
+		84D908E5288ECAEE002825C6 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908CD288ECAEE002825C6 /* UIFont.swift */; };
+		84D908E6288ECAEE002825C6 /* KobisKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908D0288ECAEE002825C6 /* KobisKey.swift */; };
+		84D908E7288ECAEE002825C6 /* NotoSansCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84D908D2288ECAEE002825C6 /* NotoSansCJKkr-Medium.otf */; };
+		84D908E8288ECAEE002825C6 /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84D908D3288ECAEE002825C6 /* NotoSansCJKkr-Regular.otf */; };
+		84D908E9288ECAEE002825C6 /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84D908D4288ECAEE002825C6 /* NotoSansCJKkr-Bold.otf */; };
+		84D908EA288ECAEE002825C6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908D6288ECAEE002825C6 /* BaseViewController.swift */; };
+		84D908EB288ECAEE002825C6 /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908D7288ECAEE002825C6 /* BaseTabBarViewController.swift */; };
+		84D908EC288ECAEE002825C6 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908D9288ECAEE002825C6 /* IndicatorView.swift */; };
+		84D908ED288ECAEE002825C6 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908DA288ECAEE002825C6 /* Device.swift */; };
+		84D908EF288ECC89002825C6 /* SignUpDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908EE288ECC89002825C6 /* SignUpDataManager.swift */; };
+		84D908F1288ECCA4002825C6 /* SignInDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908F0288ECCA4002825C6 /* SignInDataManager.swift */; };
+		84D908F3288ECCB6002825C6 /* KakaoSignUpDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908F2288ECCB6002825C6 /* KakaoSignUpDataManager.swift */; };
+		84D908F5288ECCC4002825C6 /* KakaoSignInDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908F4288ECCC4002825C6 /* KakaoSignInDataManager.swift */; };
+		84D908F7288ECCD7002825C6 /* AutoSignInDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908F6288ECCD7002825C6 /* AutoSignInDataManager.swift */; };
+		84D908F9288ECD78002825C6 /* CheckDuplicateLoginIdDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908F8288ECD78002825C6 /* CheckDuplicateLoginIdDataManager.swift */; };
+		84D908FB288ECDC9002825C6 /* MyPageDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908FA288ECDC9002825C6 /* MyPageDataManager.swift */; };
+		84D90900288ECE19002825C6 /* GetFeedsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908FF288ECE19002825C6 /* GetFeedsDataManager.swift */; };
+		84D90902288ECE34002825C6 /* UserFeedsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90901288ECE34002825C6 /* UserFeedsDataManager.swift */; };
+		84D90904288ECE4D002825C6 /* PostFeedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90903288ECE4D002825C6 /* PostFeedDataManager.swift */; };
+		84D90906288ECE6E002825C6 /* PatchFeedsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90905288ECE6E002825C6 /* PatchFeedsDataManager.swift */; };
+		84D90908288ECE81002825C6 /* DeleteFeedsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90907288ECE81002825C6 /* DeleteFeedsDataManager.swift */; };
+		84D9090A288ECE90002825C6 /* GetCommentsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90909288ECE90002825C6 /* GetCommentsDataManager.swift */; };
+		84D9090C288ECECC002825C6 /* PostCommentsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9090B288ECECC002825C6 /* PostCommentsDataManager.swift */; };
+		84D9090E288ECEF4002825C6 /* GetChatsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9090D288ECEF4002825C6 /* GetChatsDataManager.swift */; };
+		84D90910288ECF02002825C6 /* PostChatsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9090F288ECF02002825C6 /* PostChatsDataManager.swift */; };
+		84D90915288ED4DB002825C6 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90914288ED4DB002825C6 /* SignUpModel.swift */; };
+		84D90917288ED4E2002825C6 /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90916288ED4E2002825C6 /* SignInModel.swift */; };
+		84D90919288ED541002825C6 /* KakaoSignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90918288ED541002825C6 /* KakaoSignUpModel.swift */; };
+		84D9091B288ED54B002825C6 /* KakaoSignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9091A288ED54B002825C6 /* KakaoSignInModel.swift */; };
+		84D9091D288ED556002825C6 /* AutoSignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9091C288ED556002825C6 /* AutoSignInModel.swift */; };
+		84D9091F288ED56A002825C6 /* CheckDuplicateLoginIdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9091E288ED56A002825C6 /* CheckDuplicateLoginIdModel.swift */; };
+		84D90921288ED576002825C6 /* MyPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90920288ED576002825C6 /* MyPageModel.swift */; };
+		84D90923288EDB88002825C6 /* GetFeedsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90922288EDB88002825C6 /* GetFeedsModel.swift */; };
+		84D90925288EDB9B002825C6 /* PostFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90924288EDB9B002825C6 /* PostFeedModel.swift */; };
+		84D90927288EDBA5002825C6 /* PatchFeedsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90926288EDBA5002825C6 /* PatchFeedsModel.swift */; };
+		84D90929288EDBAD002825C6 /* DeleteFeedsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90928288EDBAD002825C6 /* DeleteFeedsModel.swift */; };
+		84D9092B288EDBCE002825C6 /* UserFeedsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9092A288EDBCE002825C6 /* UserFeedsModel.swift */; };
+		84D9092D288EDBDC002825C6 /* GetCommentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9092C288EDBDC002825C6 /* GetCommentsModel.swift */; };
+		84D9092F288EDBE8002825C6 /* PostCommentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9092E288EDBE8002825C6 /* PostCommentsModel.swift */; };
+		84D90931288EE123002825C6 /* GetChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90930288EE123002825C6 /* GetChatModel.swift */; };
+		84D90933288EE12B002825C6 /* PostChatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90932288EE12B002825C6 /* PostChatsModel.swift */; };
+		84D90935288EE33B002825C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84D90934288EE33B002825C6 /* GoogleService-Info.plist */; };
 		DC6E9035B881E3B265079985 /* Pods_InstagramChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241E6278FC4E29FAC44E0B42 /* Pods_InstagramChallenge.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +78,58 @@
 		8469D759288EC6A5002CFADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8469D75C288EC6A5002CFADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8469D75E288EC6A5002CFADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D908C2288ECAEE002825C6 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		84D908C4288ECAEE002825C6 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		84D908C5288ECAEE002825C6 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		84D908C6288ECAEE002825C6 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		84D908C7288ECAEE002825C6 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		84D908C8288ECAEE002825C6 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		84D908C9288ECAEE002825C6 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		84D908CA288ECAEE002825C6 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		84D908CB288ECAEE002825C6 /* UINavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
+		84D908CC288ECAEE002825C6 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		84D908CD288ECAEE002825C6 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		84D908D0288ECAEE002825C6 /* KobisKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KobisKey.swift; sourceTree = "<group>"; };
+		84D908D2288ECAEE002825C6 /* NotoSansCJKkr-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Medium.otf"; sourceTree = "<group>"; };
+		84D908D3288ECAEE002825C6 /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
+		84D908D4288ECAEE002825C6 /* NotoSansCJKkr-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; };
+		84D908D6288ECAEE002825C6 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		84D908D7288ECAEE002825C6 /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
+		84D908D9288ECAEE002825C6 /* IndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
+		84D908DA288ECAEE002825C6 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		84D908EE288ECC89002825C6 /* SignUpDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpDataManager.swift; sourceTree = "<group>"; };
+		84D908F0288ECCA4002825C6 /* SignInDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInDataManager.swift; sourceTree = "<group>"; };
+		84D908F2288ECCB6002825C6 /* KakaoSignUpDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoSignUpDataManager.swift; sourceTree = "<group>"; };
+		84D908F4288ECCC4002825C6 /* KakaoSignInDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoSignInDataManager.swift; sourceTree = "<group>"; };
+		84D908F6288ECCD7002825C6 /* AutoSignInDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSignInDataManager.swift; sourceTree = "<group>"; };
+		84D908F8288ECD78002825C6 /* CheckDuplicateLoginIdDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckDuplicateLoginIdDataManager.swift; sourceTree = "<group>"; };
+		84D908FA288ECDC9002825C6 /* MyPageDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageDataManager.swift; sourceTree = "<group>"; };
+		84D908FF288ECE19002825C6 /* GetFeedsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFeedsDataManager.swift; sourceTree = "<group>"; };
+		84D90901288ECE34002825C6 /* UserFeedsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedsDataManager.swift; sourceTree = "<group>"; };
+		84D90903288ECE4D002825C6 /* PostFeedDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFeedDataManager.swift; sourceTree = "<group>"; };
+		84D90905288ECE6E002825C6 /* PatchFeedsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchFeedsDataManager.swift; sourceTree = "<group>"; };
+		84D90907288ECE81002825C6 /* DeleteFeedsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteFeedsDataManager.swift; sourceTree = "<group>"; };
+		84D90909288ECE90002825C6 /* GetCommentsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCommentsDataManager.swift; sourceTree = "<group>"; };
+		84D9090B288ECECC002825C6 /* PostCommentsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentsDataManager.swift; sourceTree = "<group>"; };
+		84D9090D288ECEF4002825C6 /* GetChatsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetChatsDataManager.swift; sourceTree = "<group>"; };
+		84D9090F288ECF02002825C6 /* PostChatsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostChatsDataManager.swift; sourceTree = "<group>"; };
+		84D90914288ED4DB002825C6 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		84D90916288ED4E2002825C6 /* SignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
+		84D90918288ED541002825C6 /* KakaoSignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoSignUpModel.swift; sourceTree = "<group>"; };
+		84D9091A288ED54B002825C6 /* KakaoSignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoSignInModel.swift; sourceTree = "<group>"; };
+		84D9091C288ED556002825C6 /* AutoSignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSignInModel.swift; sourceTree = "<group>"; };
+		84D9091E288ED56A002825C6 /* CheckDuplicateLoginIdModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckDuplicateLoginIdModel.swift; sourceTree = "<group>"; };
+		84D90920288ED576002825C6 /* MyPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageModel.swift; sourceTree = "<group>"; };
+		84D90922288EDB88002825C6 /* GetFeedsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFeedsModel.swift; sourceTree = "<group>"; };
+		84D90924288EDB9B002825C6 /* PostFeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFeedModel.swift; sourceTree = "<group>"; };
+		84D90926288EDBA5002825C6 /* PatchFeedsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchFeedsModel.swift; sourceTree = "<group>"; };
+		84D90928288EDBAD002825C6 /* DeleteFeedsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteFeedsModel.swift; sourceTree = "<group>"; };
+		84D9092A288EDBCE002825C6 /* UserFeedsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedsModel.swift; sourceTree = "<group>"; };
+		84D9092C288EDBDC002825C6 /* GetCommentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCommentsModel.swift; sourceTree = "<group>"; };
+		84D9092E288EDBE8002825C6 /* PostCommentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentsModel.swift; sourceTree = "<group>"; };
+		84D90930288EE123002825C6 /* GetChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetChatModel.swift; sourceTree = "<group>"; };
+		84D90932288EE12B002825C6 /* PostChatsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostChatsModel.swift; sourceTree = "<group>"; };
+		84D90934288EE33B002825C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A40B95E50C1870A87D2AF61F /* Pods-InstagramChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramChallenge.debug.xcconfig"; path = "Target Support Files/Pods-InstagramChallenge/Pods-InstagramChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		F126AC673399D95148C8638B /* Pods-InstagramChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramChallenge.release.xcconfig"; path = "Target Support Files/Pods-InstagramChallenge/Pods-InstagramChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,8 +152,34 @@
 				A40B95E50C1870A87D2AF61F /* Pods-InstagramChallenge.debug.xcconfig */,
 				F126AC673399D95148C8638B /* Pods-InstagramChallenge.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		840712A0288ECA1A00E482AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		840712A1288ECA2000E482AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84D908FC288ECDEC002825C6 /* User */,
+				84D908FD288ECDFE002825C6 /* Feed */,
+				84D908FE288ECE05002825C6 /* Chat */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		840712A2288ECA2600E482AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84D90911288ECFCB002825C6 /* User */,
+				84D90912288ECFD0002825C6 /* Feed */,
+				84D90913288ECFD5002825C6 /* Chat */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		8469D744288EC6A3002CFADC = {
@@ -73,6 +203,10 @@
 		8469D74F288EC6A3002CFADC /* InstagramChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				84D908C1288ECAEE002825C6 /* Configuration */,
+				840712A2288ECA2600E482AF /* Model */,
+				840712A0288ECA1A00E482AF /* View */,
+				840712A1288ECA2000E482AF /* Controller */,
 				8469D750288EC6A3002CFADC /* AppDelegate.swift */,
 				8469D752288EC6A3002CFADC /* SceneDelegate.swift */,
 				8469D754288EC6A3002CFADC /* ViewController.swift */,
@@ -80,8 +214,157 @@
 				8469D759288EC6A5002CFADC /* Assets.xcassets */,
 				8469D75B288EC6A5002CFADC /* LaunchScreen.storyboard */,
 				8469D75E288EC6A5002CFADC /* Info.plist */,
+				84D90934288EE33B002825C6 /* GoogleService-Info.plist */,
 			);
 			path = InstagramChallenge;
+			sourceTree = "<group>";
+		};
+		84D908C1288ECAEE002825C6 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				84D908C2288ECAEE002825C6 /* Constant.swift */,
+				84D908C3288ECAEE002825C6 /* Extension */,
+				84D908CE288ECAEE002825C6 /* Delegate */,
+				84D908CF288ECAEE002825C6 /* Secret */,
+				84D908D1288ECAEE002825C6 /* Font */,
+				84D908D5288ECAEE002825C6 /* Base */,
+				84D908D8288ECAEE002825C6 /* CustomClass */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		84D908C3288ECAEE002825C6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				84D908C4288ECAEE002825C6 /* Date.swift */,
+				84D908C5288ECAEE002825C6 /* UIView.swift */,
+				84D908C6288ECAEE002825C6 /* UIColor.swift */,
+				84D908C7288ECAEE002825C6 /* String.swift */,
+				84D908C8288ECAEE002825C6 /* UIButton.swift */,
+				84D908C9288ECAEE002825C6 /* UIImage.swift */,
+				84D908CA288ECAEE002825C6 /* UIViewController.swift */,
+				84D908CB288ECAEE002825C6 /* UINavigationBar.swift */,
+				84D908CC288ECAEE002825C6 /* UIImageView.swift */,
+				84D908CD288ECAEE002825C6 /* UIFont.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		84D908CE288ECAEE002825C6 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		84D908CF288ECAEE002825C6 /* Secret */ = {
+			isa = PBXGroup;
+			children = (
+				84D908D0288ECAEE002825C6 /* KobisKey.swift */,
+			);
+			path = Secret;
+			sourceTree = "<group>";
+		};
+		84D908D1288ECAEE002825C6 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				84D908D2288ECAEE002825C6 /* NotoSansCJKkr-Medium.otf */,
+				84D908D3288ECAEE002825C6 /* NotoSansCJKkr-Regular.otf */,
+				84D908D4288ECAEE002825C6 /* NotoSansCJKkr-Bold.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		84D908D5288ECAEE002825C6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				84D908D6288ECAEE002825C6 /* BaseViewController.swift */,
+				84D908D7288ECAEE002825C6 /* BaseTabBarViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		84D908D8288ECAEE002825C6 /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				84D908D9288ECAEE002825C6 /* IndicatorView.swift */,
+				84D908DA288ECAEE002825C6 /* Device.swift */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		84D908FC288ECDEC002825C6 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				84D908EE288ECC89002825C6 /* SignUpDataManager.swift */,
+				84D908F0288ECCA4002825C6 /* SignInDataManager.swift */,
+				84D908F2288ECCB6002825C6 /* KakaoSignUpDataManager.swift */,
+				84D908F4288ECCC4002825C6 /* KakaoSignInDataManager.swift */,
+				84D908F6288ECCD7002825C6 /* AutoSignInDataManager.swift */,
+				84D908F8288ECD78002825C6 /* CheckDuplicateLoginIdDataManager.swift */,
+				84D908FA288ECDC9002825C6 /* MyPageDataManager.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		84D908FD288ECDFE002825C6 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				84D908FF288ECE19002825C6 /* GetFeedsDataManager.swift */,
+				84D90903288ECE4D002825C6 /* PostFeedDataManager.swift */,
+				84D90905288ECE6E002825C6 /* PatchFeedsDataManager.swift */,
+				84D90907288ECE81002825C6 /* DeleteFeedsDataManager.swift */,
+				84D90901288ECE34002825C6 /* UserFeedsDataManager.swift */,
+				84D90909288ECE90002825C6 /* GetCommentsDataManager.swift */,
+				84D9090B288ECECC002825C6 /* PostCommentsDataManager.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		84D908FE288ECE05002825C6 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				84D9090D288ECEF4002825C6 /* GetChatsDataManager.swift */,
+				84D9090F288ECF02002825C6 /* PostChatsDataManager.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		84D90911288ECFCB002825C6 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				84D90914288ED4DB002825C6 /* SignUpModel.swift */,
+				84D90916288ED4E2002825C6 /* SignInModel.swift */,
+				84D90918288ED541002825C6 /* KakaoSignUpModel.swift */,
+				84D9091A288ED54B002825C6 /* KakaoSignInModel.swift */,
+				84D9091C288ED556002825C6 /* AutoSignInModel.swift */,
+				84D9091E288ED56A002825C6 /* CheckDuplicateLoginIdModel.swift */,
+				84D90920288ED576002825C6 /* MyPageModel.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		84D90912288ECFD0002825C6 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				84D90922288EDB88002825C6 /* GetFeedsModel.swift */,
+				84D90924288EDB9B002825C6 /* PostFeedModel.swift */,
+				84D90926288EDBA5002825C6 /* PatchFeedsModel.swift */,
+				84D90928288EDBAD002825C6 /* DeleteFeedsModel.swift */,
+				84D9092A288EDBCE002825C6 /* UserFeedsModel.swift */,
+				84D9092C288EDBDC002825C6 /* GetCommentsModel.swift */,
+				84D9092E288EDBE8002825C6 /* PostCommentsModel.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		84D90913288ECFD5002825C6 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				84D90930288EE123002825C6 /* GetChatModel.swift */,
+				84D90932288EE12B002825C6 /* PostChatsModel.swift */,
+			);
+			path = Chat;
 			sourceTree = "<group>";
 		};
 		F04055534B89919683A290E3 /* Frameworks */ = {
@@ -152,9 +435,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D908E8288ECAEE002825C6 /* NotoSansCJKkr-Regular.otf in Resources */,
 				8469D75D288EC6A5002CFADC /* LaunchScreen.storyboard in Resources */,
 				8469D75A288EC6A5002CFADC /* Assets.xcassets in Resources */,
 				8469D758288EC6A3002CFADC /* Main.storyboard in Resources */,
+				84D908E7288ECAEE002825C6 /* NotoSansCJKkr-Medium.otf in Resources */,
+				84D908E9288ECAEE002825C6 /* NotoSansCJKkr-Bold.otf in Resources */,
+				84D90935288EE33B002825C6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,9 +494,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D9092F288EDBE8002825C6 /* PostCommentsModel.swift in Sources */,
 				8469D755288EC6A3002CFADC /* ViewController.swift in Sources */,
+				84D908E1288ECAEE002825C6 /* UIImage.swift in Sources */,
+				84D90921288ED576002825C6 /* MyPageModel.swift in Sources */,
+				84D9091D288ED556002825C6 /* AutoSignInModel.swift in Sources */,
+				84D908DE288ECAEE002825C6 /* UIColor.swift in Sources */,
+				84D90915288ED4DB002825C6 /* SignUpModel.swift in Sources */,
+				84D90904288ECE4D002825C6 /* PostFeedDataManager.swift in Sources */,
+				84D90917288ED4E2002825C6 /* SignInModel.swift in Sources */,
+				84D9092D288EDBDC002825C6 /* GetCommentsModel.swift in Sources */,
+				84D908E4288ECAEE002825C6 /* UIImageView.swift in Sources */,
+				84D90919288ED541002825C6 /* KakaoSignUpModel.swift in Sources */,
+				84D90923288EDB88002825C6 /* GetFeedsModel.swift in Sources */,
+				84D9092B288EDBCE002825C6 /* UserFeedsModel.swift in Sources */,
+				84D908F7288ECCD7002825C6 /* AutoSignInDataManager.swift in Sources */,
+				84D908EC288ECAEE002825C6 /* IndicatorView.swift in Sources */,
+				84D908F5288ECCC4002825C6 /* KakaoSignInDataManager.swift in Sources */,
+				84D908E3288ECAEE002825C6 /* UINavigationBar.swift in Sources */,
+				84D908E2288ECAEE002825C6 /* UIViewController.swift in Sources */,
+				84D90910288ECF02002825C6 /* PostChatsDataManager.swift in Sources */,
+				84D90931288EE123002825C6 /* GetChatModel.swift in Sources */,
+				84D90933288EE12B002825C6 /* PostChatsModel.swift in Sources */,
+				84D908F3288ECCB6002825C6 /* KakaoSignUpDataManager.swift in Sources */,
+				84D9090A288ECE90002825C6 /* GetCommentsDataManager.swift in Sources */,
+				84D9090E288ECEF4002825C6 /* GetChatsDataManager.swift in Sources */,
+				84D90902288ECE34002825C6 /* UserFeedsDataManager.swift in Sources */,
+				84D908DC288ECAEE002825C6 /* Date.swift in Sources */,
 				8469D751288EC6A3002CFADC /* AppDelegate.swift in Sources */,
+				84D90906288ECE6E002825C6 /* PatchFeedsDataManager.swift in Sources */,
+				84D90929288EDBAD002825C6 /* DeleteFeedsModel.swift in Sources */,
+				84D9091F288ED56A002825C6 /* CheckDuplicateLoginIdModel.swift in Sources */,
+				84D90900288ECE19002825C6 /* GetFeedsDataManager.swift in Sources */,
+				84D90908288ECE81002825C6 /* DeleteFeedsDataManager.swift in Sources */,
+				84D908FB288ECDC9002825C6 /* MyPageDataManager.swift in Sources */,
 				8469D753288EC6A3002CFADC /* SceneDelegate.swift in Sources */,
+				84D90927288EDBA5002825C6 /* PatchFeedsModel.swift in Sources */,
+				84D90925288EDB9B002825C6 /* PostFeedModel.swift in Sources */,
+				84D908EB288ECAEE002825C6 /* BaseTabBarViewController.swift in Sources */,
+				84D908DD288ECAEE002825C6 /* UIView.swift in Sources */,
+				84D908E5288ECAEE002825C6 /* UIFont.swift in Sources */,
+				84D9091B288ED54B002825C6 /* KakaoSignInModel.swift in Sources */,
+				84D908ED288ECAEE002825C6 /* Device.swift in Sources */,
+				84D908DF288ECAEE002825C6 /* String.swift in Sources */,
+				84D908DB288ECAEE002825C6 /* Constant.swift in Sources */,
+				84D908EA288ECAEE002825C6 /* BaseViewController.swift in Sources */,
+				84D908F1288ECCA4002825C6 /* SignInDataManager.swift in Sources */,
+				84D9090C288ECECC002825C6 /* PostCommentsDataManager.swift in Sources */,
+				84D908EF288ECC89002825C6 /* SignUpDataManager.swift in Sources */,
+				84D908E0288ECAEE002825C6 /* UIButton.swift in Sources */,
+				84D908E6288ECAEE002825C6 /* KobisKey.swift in Sources */,
+				84D908F9288ECD78002825C6 /* CheckDuplicateLoginIdDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +620,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -339,7 +674,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

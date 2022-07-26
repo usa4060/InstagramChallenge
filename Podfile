@@ -8,6 +8,8 @@ target 'InstagramChallenge' do
   pod 'SnapKit'
   pod 'Then'
   pod 'Kingfisher'
+  pod 'Firebase/Database'
+
   # Pods for InstagramChallenge
 
 end
