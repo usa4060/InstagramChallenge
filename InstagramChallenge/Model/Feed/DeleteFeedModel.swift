@@ -1,10 +1,9 @@
 import Foundation
 import Alamofire
 
-// MARK: - PatchFeedsModel
-struct PatchFeedsModel: Codable {
+// MARK: - DeleteFeedsModel
+struct DeleteFeedModel: Codable {
     let isSuccess: Bool
     let code: Int
     let message: String
 }
-

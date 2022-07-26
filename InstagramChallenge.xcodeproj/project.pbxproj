@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		8469D751288EC6A3002CFADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469D750288EC6A3002CFADC /* AppDelegate.swift */; };
 		8469D753288EC6A3002CFADC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469D752288EC6A3002CFADC /* SceneDelegate.swift */; };
-		8469D755288EC6A3002CFADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469D754288EC6A3002CFADC /* ViewController.swift */; };
-		8469D758288EC6A3002CFADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8469D756288EC6A3002CFADC /* Main.storyboard */; };
 		8469D75A288EC6A5002CFADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8469D759288EC6A5002CFADC /* Assets.xcassets */; };
 		8469D75D288EC6A5002CFADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8469D75B288EC6A5002CFADC /* LaunchScreen.storyboard */; };
 		84D908DB288ECAEE002825C6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908C2288ECAEE002825C6 /* Constant.swift */; };
@@ -40,14 +38,14 @@
 		84D908F9288ECD78002825C6 /* CheckDuplicateLoginIdDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908F8288ECD78002825C6 /* CheckDuplicateLoginIdDataManager.swift */; };
 		84D908FB288ECDC9002825C6 /* MyPageDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908FA288ECDC9002825C6 /* MyPageDataManager.swift */; };
 		84D90900288ECE19002825C6 /* GetFeedsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D908FF288ECE19002825C6 /* GetFeedsDataManager.swift */; };
-		84D90902288ECE34002825C6 /* UserFeedsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90901288ECE34002825C6 /* UserFeedsDataManager.swift */; };
+		84D90902288ECE34002825C6 /* UserFeedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90901288ECE34002825C6 /* UserFeedDataManager.swift */; };
 		84D90904288ECE4D002825C6 /* PostFeedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90903288ECE4D002825C6 /* PostFeedDataManager.swift */; };
-		84D90906288ECE6E002825C6 /* PatchFeedsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90905288ECE6E002825C6 /* PatchFeedsDataManager.swift */; };
-		84D90908288ECE81002825C6 /* DeleteFeedsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90907288ECE81002825C6 /* DeleteFeedsDataManager.swift */; };
+		84D90906288ECE6E002825C6 /* PatchFeedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90905288ECE6E002825C6 /* PatchFeedDataManager.swift */; };
+		84D90908288ECE81002825C6 /* DeleteFeedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90907288ECE81002825C6 /* DeleteFeedDataManager.swift */; };
 		84D9090A288ECE90002825C6 /* GetCommentsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90909288ECE90002825C6 /* GetCommentsDataManager.swift */; };
-		84D9090C288ECECC002825C6 /* PostCommentsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9090B288ECECC002825C6 /* PostCommentsDataManager.swift */; };
+		84D9090C288ECECC002825C6 /* PostCommentDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9090B288ECECC002825C6 /* PostCommentDataManager.swift */; };
 		84D9090E288ECEF4002825C6 /* GetChatsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9090D288ECEF4002825C6 /* GetChatsDataManager.swift */; };
-		84D90910288ECF02002825C6 /* PostChatsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9090F288ECF02002825C6 /* PostChatsDataManager.swift */; };
+		84D90910288ECF02002825C6 /* PostChatDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9090F288ECF02002825C6 /* PostChatDataManager.swift */; };
 		84D90915288ED4DB002825C6 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90914288ED4DB002825C6 /* SignUpModel.swift */; };
 		84D90917288ED4E2002825C6 /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90916288ED4E2002825C6 /* SignInModel.swift */; };
 		84D90919288ED541002825C6 /* KakaoSignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90918288ED541002825C6 /* KakaoSignUpModel.swift */; };
@@ -57,13 +55,13 @@
 		84D90921288ED576002825C6 /* MyPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90920288ED576002825C6 /* MyPageModel.swift */; };
 		84D90923288EDB88002825C6 /* GetFeedsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90922288EDB88002825C6 /* GetFeedsModel.swift */; };
 		84D90925288EDB9B002825C6 /* PostFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90924288EDB9B002825C6 /* PostFeedModel.swift */; };
-		84D90927288EDBA5002825C6 /* PatchFeedsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90926288EDBA5002825C6 /* PatchFeedsModel.swift */; };
-		84D90929288EDBAD002825C6 /* DeleteFeedsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90928288EDBAD002825C6 /* DeleteFeedsModel.swift */; };
-		84D9092B288EDBCE002825C6 /* UserFeedsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9092A288EDBCE002825C6 /* UserFeedsModel.swift */; };
+		84D90927288EDBA5002825C6 /* PatchFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90926288EDBA5002825C6 /* PatchFeedModel.swift */; };
+		84D90929288EDBAD002825C6 /* DeleteFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90928288EDBAD002825C6 /* DeleteFeedModel.swift */; };
+		84D9092B288EDBCE002825C6 /* UserFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9092A288EDBCE002825C6 /* UserFeedModel.swift */; };
 		84D9092D288EDBDC002825C6 /* GetCommentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9092C288EDBDC002825C6 /* GetCommentsModel.swift */; };
-		84D9092F288EDBE8002825C6 /* PostCommentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9092E288EDBE8002825C6 /* PostCommentsModel.swift */; };
+		84D9092F288EDBE8002825C6 /* PostCommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9092E288EDBE8002825C6 /* PostCommentModel.swift */; };
 		84D90931288EE123002825C6 /* GetChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90930288EE123002825C6 /* GetChatModel.swift */; };
-		84D90933288EE12B002825C6 /* PostChatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90932288EE12B002825C6 /* PostChatsModel.swift */; };
+		84D90933288EE12B002825C6 /* PostChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D90932288EE12B002825C6 /* PostChatModel.swift */; };
 		84D90935288EE33B002825C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84D90934288EE33B002825C6 /* GoogleService-Info.plist */; };
 		DC6E9035B881E3B265079985 /* Pods_InstagramChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241E6278FC4E29FAC44E0B42 /* Pods_InstagramChallenge.framework */; };
 /* End PBXBuildFile section */
@@ -73,8 +71,6 @@
 		8469D74D288EC6A3002CFADC /* InstagramChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8469D750288EC6A3002CFADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8469D752288EC6A3002CFADC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8469D754288EC6A3002CFADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8469D757288EC6A3002CFADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8469D759288EC6A5002CFADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8469D75C288EC6A5002CFADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8469D75E288EC6A5002CFADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,14 +101,14 @@
 		84D908F8288ECD78002825C6 /* CheckDuplicateLoginIdDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckDuplicateLoginIdDataManager.swift; sourceTree = "<group>"; };
 		84D908FA288ECDC9002825C6 /* MyPageDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageDataManager.swift; sourceTree = "<group>"; };
 		84D908FF288ECE19002825C6 /* GetFeedsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFeedsDataManager.swift; sourceTree = "<group>"; };
-		84D90901288ECE34002825C6 /* UserFeedsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedsDataManager.swift; sourceTree = "<group>"; };
+		84D90901288ECE34002825C6 /* UserFeedDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedDataManager.swift; sourceTree = "<group>"; };
 		84D90903288ECE4D002825C6 /* PostFeedDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFeedDataManager.swift; sourceTree = "<group>"; };
-		84D90905288ECE6E002825C6 /* PatchFeedsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchFeedsDataManager.swift; sourceTree = "<group>"; };
-		84D90907288ECE81002825C6 /* DeleteFeedsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteFeedsDataManager.swift; sourceTree = "<group>"; };
+		84D90905288ECE6E002825C6 /* PatchFeedDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchFeedDataManager.swift; sourceTree = "<group>"; };
+		84D90907288ECE81002825C6 /* DeleteFeedDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteFeedDataManager.swift; sourceTree = "<group>"; };
 		84D90909288ECE90002825C6 /* GetCommentsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCommentsDataManager.swift; sourceTree = "<group>"; };
-		84D9090B288ECECC002825C6 /* PostCommentsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentsDataManager.swift; sourceTree = "<group>"; };
+		84D9090B288ECECC002825C6 /* PostCommentDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentDataManager.swift; sourceTree = "<group>"; };
 		84D9090D288ECEF4002825C6 /* GetChatsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetChatsDataManager.swift; sourceTree = "<group>"; };
-		84D9090F288ECF02002825C6 /* PostChatsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostChatsDataManager.swift; sourceTree = "<group>"; };
+		84D9090F288ECF02002825C6 /* PostChatDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostChatDataManager.swift; sourceTree = "<group>"; };
 		84D90914288ED4DB002825C6 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
 		84D90916288ED4E2002825C6 /* SignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
 		84D90918288ED541002825C6 /* KakaoSignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoSignUpModel.swift; sourceTree = "<group>"; };
@@ -122,13 +118,13 @@
 		84D90920288ED576002825C6 /* MyPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageModel.swift; sourceTree = "<group>"; };
 		84D90922288EDB88002825C6 /* GetFeedsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFeedsModel.swift; sourceTree = "<group>"; };
 		84D90924288EDB9B002825C6 /* PostFeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFeedModel.swift; sourceTree = "<group>"; };
-		84D90926288EDBA5002825C6 /* PatchFeedsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchFeedsModel.swift; sourceTree = "<group>"; };
-		84D90928288EDBAD002825C6 /* DeleteFeedsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteFeedsModel.swift; sourceTree = "<group>"; };
-		84D9092A288EDBCE002825C6 /* UserFeedsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedsModel.swift; sourceTree = "<group>"; };
+		84D90926288EDBA5002825C6 /* PatchFeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchFeedModel.swift; sourceTree = "<group>"; };
+		84D90928288EDBAD002825C6 /* DeleteFeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteFeedModel.swift; sourceTree = "<group>"; };
+		84D9092A288EDBCE002825C6 /* UserFeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedModel.swift; sourceTree = "<group>"; };
 		84D9092C288EDBDC002825C6 /* GetCommentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCommentsModel.swift; sourceTree = "<group>"; };
-		84D9092E288EDBE8002825C6 /* PostCommentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentsModel.swift; sourceTree = "<group>"; };
+		84D9092E288EDBE8002825C6 /* PostCommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCommentModel.swift; sourceTree = "<group>"; };
 		84D90930288EE123002825C6 /* GetChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetChatModel.swift; sourceTree = "<group>"; };
-		84D90932288EE12B002825C6 /* PostChatsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostChatsModel.swift; sourceTree = "<group>"; };
+		84D90932288EE12B002825C6 /* PostChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostChatModel.swift; sourceTree = "<group>"; };
 		84D90934288EE33B002825C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A40B95E50C1870A87D2AF61F /* Pods-InstagramChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramChallenge.debug.xcconfig"; path = "Target Support Files/Pods-InstagramChallenge/Pods-InstagramChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		F126AC673399D95148C8638B /* Pods-InstagramChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramChallenge.release.xcconfig"; path = "Target Support Files/Pods-InstagramChallenge/Pods-InstagramChallenge.release.xcconfig"; sourceTree = "<group>"; };
@@ -209,8 +205,6 @@
 				840712A1288ECA2000E482AF /* Controller */,
 				8469D750288EC6A3002CFADC /* AppDelegate.swift */,
 				8469D752288EC6A3002CFADC /* SceneDelegate.swift */,
-				8469D754288EC6A3002CFADC /* ViewController.swift */,
-				8469D756288EC6A3002CFADC /* Main.storyboard */,
 				8469D759288EC6A5002CFADC /* Assets.xcassets */,
 				8469D75B288EC6A5002CFADC /* LaunchScreen.storyboard */,
 				8469D75E288EC6A5002CFADC /* Info.plist */,
@@ -312,11 +306,11 @@
 			children = (
 				84D908FF288ECE19002825C6 /* GetFeedsDataManager.swift */,
 				84D90903288ECE4D002825C6 /* PostFeedDataManager.swift */,
-				84D90905288ECE6E002825C6 /* PatchFeedsDataManager.swift */,
-				84D90907288ECE81002825C6 /* DeleteFeedsDataManager.swift */,
-				84D90901288ECE34002825C6 /* UserFeedsDataManager.swift */,
+				84D90905288ECE6E002825C6 /* PatchFeedDataManager.swift */,
+				84D90907288ECE81002825C6 /* DeleteFeedDataManager.swift */,
+				84D90901288ECE34002825C6 /* UserFeedDataManager.swift */,
 				84D90909288ECE90002825C6 /* GetCommentsDataManager.swift */,
-				84D9090B288ECECC002825C6 /* PostCommentsDataManager.swift */,
+				84D9090B288ECECC002825C6 /* PostCommentDataManager.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -325,7 +319,7 @@
 			isa = PBXGroup;
 			children = (
 				84D9090D288ECEF4002825C6 /* GetChatsDataManager.swift */,
-				84D9090F288ECF02002825C6 /* PostChatsDataManager.swift */,
+				84D9090F288ECF02002825C6 /* PostChatDataManager.swift */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -349,11 +343,11 @@
 			children = (
 				84D90922288EDB88002825C6 /* GetFeedsModel.swift */,
 				84D90924288EDB9B002825C6 /* PostFeedModel.swift */,
-				84D90926288EDBA5002825C6 /* PatchFeedsModel.swift */,
-				84D90928288EDBAD002825C6 /* DeleteFeedsModel.swift */,
-				84D9092A288EDBCE002825C6 /* UserFeedsModel.swift */,
+				84D90926288EDBA5002825C6 /* PatchFeedModel.swift */,
+				84D90928288EDBAD002825C6 /* DeleteFeedModel.swift */,
+				84D9092A288EDBCE002825C6 /* UserFeedModel.swift */,
 				84D9092C288EDBDC002825C6 /* GetCommentsModel.swift */,
-				84D9092E288EDBE8002825C6 /* PostCommentsModel.swift */,
+				84D9092E288EDBE8002825C6 /* PostCommentModel.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -362,7 +356,7 @@
 			isa = PBXGroup;
 			children = (
 				84D90930288EE123002825C6 /* GetChatModel.swift */,
-				84D90932288EE12B002825C6 /* PostChatsModel.swift */,
+				84D90932288EE12B002825C6 /* PostChatModel.swift */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -438,7 +432,6 @@
 				84D908E8288ECAEE002825C6 /* NotoSansCJKkr-Regular.otf in Resources */,
 				8469D75D288EC6A5002CFADC /* LaunchScreen.storyboard in Resources */,
 				8469D75A288EC6A5002CFADC /* Assets.xcassets in Resources */,
-				8469D758288EC6A3002CFADC /* Main.storyboard in Resources */,
 				84D908E7288ECAEE002825C6 /* NotoSansCJKkr-Medium.otf in Resources */,
 				84D908E9288ECAEE002825C6 /* NotoSansCJKkr-Bold.otf in Resources */,
 				84D90935288EE33B002825C6 /* GoogleService-Info.plist in Resources */,
@@ -494,8 +487,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D9092F288EDBE8002825C6 /* PostCommentsModel.swift in Sources */,
-				8469D755288EC6A3002CFADC /* ViewController.swift in Sources */,
+				84D9092F288EDBE8002825C6 /* PostCommentModel.swift in Sources */,
 				84D908E1288ECAEE002825C6 /* UIImage.swift in Sources */,
 				84D90921288ED576002825C6 /* MyPageModel.swift in Sources */,
 				84D9091D288ED556002825C6 /* AutoSignInModel.swift in Sources */,
@@ -507,29 +499,29 @@
 				84D908E4288ECAEE002825C6 /* UIImageView.swift in Sources */,
 				84D90919288ED541002825C6 /* KakaoSignUpModel.swift in Sources */,
 				84D90923288EDB88002825C6 /* GetFeedsModel.swift in Sources */,
-				84D9092B288EDBCE002825C6 /* UserFeedsModel.swift in Sources */,
+				84D9092B288EDBCE002825C6 /* UserFeedModel.swift in Sources */,
 				84D908F7288ECCD7002825C6 /* AutoSignInDataManager.swift in Sources */,
 				84D908EC288ECAEE002825C6 /* IndicatorView.swift in Sources */,
 				84D908F5288ECCC4002825C6 /* KakaoSignInDataManager.swift in Sources */,
 				84D908E3288ECAEE002825C6 /* UINavigationBar.swift in Sources */,
 				84D908E2288ECAEE002825C6 /* UIViewController.swift in Sources */,
-				84D90910288ECF02002825C6 /* PostChatsDataManager.swift in Sources */,
+				84D90910288ECF02002825C6 /* PostChatDataManager.swift in Sources */,
 				84D90931288EE123002825C6 /* GetChatModel.swift in Sources */,
-				84D90933288EE12B002825C6 /* PostChatsModel.swift in Sources */,
+				84D90933288EE12B002825C6 /* PostChatModel.swift in Sources */,
 				84D908F3288ECCB6002825C6 /* KakaoSignUpDataManager.swift in Sources */,
 				84D9090A288ECE90002825C6 /* GetCommentsDataManager.swift in Sources */,
 				84D9090E288ECEF4002825C6 /* GetChatsDataManager.swift in Sources */,
-				84D90902288ECE34002825C6 /* UserFeedsDataManager.swift in Sources */,
+				84D90902288ECE34002825C6 /* UserFeedDataManager.swift in Sources */,
 				84D908DC288ECAEE002825C6 /* Date.swift in Sources */,
 				8469D751288EC6A3002CFADC /* AppDelegate.swift in Sources */,
-				84D90906288ECE6E002825C6 /* PatchFeedsDataManager.swift in Sources */,
-				84D90929288EDBAD002825C6 /* DeleteFeedsModel.swift in Sources */,
+				84D90906288ECE6E002825C6 /* PatchFeedDataManager.swift in Sources */,
+				84D90929288EDBAD002825C6 /* DeleteFeedModel.swift in Sources */,
 				84D9091F288ED56A002825C6 /* CheckDuplicateLoginIdModel.swift in Sources */,
 				84D90900288ECE19002825C6 /* GetFeedsDataManager.swift in Sources */,
-				84D90908288ECE81002825C6 /* DeleteFeedsDataManager.swift in Sources */,
+				84D90908288ECE81002825C6 /* DeleteFeedDataManager.swift in Sources */,
 				84D908FB288ECDC9002825C6 /* MyPageDataManager.swift in Sources */,
 				8469D753288EC6A3002CFADC /* SceneDelegate.swift in Sources */,
-				84D90927288EDBA5002825C6 /* PatchFeedsModel.swift in Sources */,
+				84D90927288EDBA5002825C6 /* PatchFeedModel.swift in Sources */,
 				84D90925288EDB9B002825C6 /* PostFeedModel.swift in Sources */,
 				84D908EB288ECAEE002825C6 /* BaseTabBarViewController.swift in Sources */,
 				84D908DD288ECAEE002825C6 /* UIView.swift in Sources */,
@@ -540,7 +532,7 @@
 				84D908DB288ECAEE002825C6 /* Constant.swift in Sources */,
 				84D908EA288ECAEE002825C6 /* BaseViewController.swift in Sources */,
 				84D908F1288ECCA4002825C6 /* SignInDataManager.swift in Sources */,
-				84D9090C288ECECC002825C6 /* PostCommentsDataManager.swift in Sources */,
+				84D9090C288ECECC002825C6 /* PostCommentDataManager.swift in Sources */,
 				84D908EF288ECC89002825C6 /* SignUpDataManager.swift in Sources */,
 				84D908E0288ECAEE002825C6 /* UIButton.swift in Sources */,
 				84D908E6288ECAEE002825C6 /* KobisKey.swift in Sources */,
@@ -551,14 +543,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8469D756288EC6A3002CFADC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8469D757288EC6A3002CFADC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8469D75B288EC6A5002CFADC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -697,7 +681,6 @@
 				INFOPLIST_FILE = InstagramChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -727,7 +710,6 @@
 				INFOPLIST_FILE = InstagramChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

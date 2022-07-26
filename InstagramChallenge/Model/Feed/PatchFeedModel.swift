@@ -1,9 +1,10 @@
 import Foundation
 import Alamofire
 
-// MARK: - PostCommentsModel
-struct PostCommentsModel: Codable {
+// MARK: - PatchFeedsModel
+struct PatchFeedModel: Codable {
     let isSuccess: Bool
     let code: Int
     let message: String
 }
+

@@ -1,20 +1,21 @@
 import Foundation
 import Alamofire
 
-class GetCommentsDataManager{
-    func getComments(_ pageIndex : Int, _ size : Int, _ viewController : UIViewController, _ completion: @escaping (_ data : [GetCommentsResult]) -> Void){
-        let headers: HTTPHeaders = [
+class UserFeedDataManager{
+    func userFeed(_ pageIndex : Int, _ size : Int, _ loginId : String, _ viewController : UIViewController, _ completion: @escaping (_ data : [UserFeedResult]) -> Void){
+        var headers: HTTPHeaders = [
                     "Content-Type":"application/json",
                     "Accept": "application/json",
                     "x-access-token" : Constant.USER_JWTTOKEN
         ]
         
-        let param : Parameters = [
+        var param : Parameters = [
             "pageIndex" : "\(pageIndex)",
-            "size" : "\(size)"
+            "size" : "\(size)",
+            "loginId" : "\(loginId)"
         ]
-        AF.request("\(Constant.BASE_URL)/feeds/\(Constant.FEED_ID)/comments", method: .get, parameters: param, encoding: JSONEncoding.default, headers: headers)
-            .responseDecodable(of: GetCommentsModel.self){response in
+        AF.request("\(Constant.BASE_URL)/feeds/user", method: .get ,encoding: JSONEncoding.default, headers: headers)
+            .responseDecodable(of: UserFeedModel.self){response in
                 switch response.result {
                 case .success(let response):
                     print("성공")
@@ -25,6 +26,14 @@ class GetCommentsDataManager{
                         viewController.dismissIndicator()
                         viewController.presentAlert(title: "JWT 토큰을 입력해주세요.")
                         print("JWT 토큰을 입력해주세요.")
+                    case 2103:
+                        viewController.dismissIndicator()
+                        viewController.presentAlert(title: "계정 아이디를 입력해주세요")
+                        print("계정 아이디를 입력해주세요")
+                    case 2104:
+                        viewController.dismissIndicator()
+                        viewController.presentAlert(title: "계정 아이디는 20자리 미만으로 입력해주세요.")
+                        print("계정 아이디는 20자리 미만으로 입력해주세요.")
                     case 2900:
                         viewController.dismissIndicator()
                         viewController.presentAlert(title: "페이지 인덱스를 올바르게 입력해주세요.")
@@ -33,10 +42,6 @@ class GetCommentsDataManager{
                         viewController.dismissIndicator()
                         viewController.presentAlert(title: "페이지 사이즈를 올바르게 입력해주세요.")
                         print("페이지 사이즈를 올바르게 입력해주세요.")
-                    case 2904:
-                        viewController.dismissIndicator()
-                        viewController.presentAlert(title: "피드 아이디를 올바르게 입력해주세요.")
-                        print("피드 아이디를 올바르게 입력해주세요.")
                     case 3000:
                         viewController.dismissIndicator()
                         viewController.presentAlert(title: "자동로그인 검증에 실패하였습니다. 다시 시도해주세요.")

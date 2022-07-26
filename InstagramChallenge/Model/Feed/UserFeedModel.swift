@@ -2,20 +2,20 @@ import Foundation
 import Alamofire
 
 // MARK: - PostFeedModel
-struct UserFeedsModel: Codable {
+struct UserFeedModel: Codable {
     let isSuccess: Bool
     let code: Int
     let message: String
-    let result: [UserFeedsResult]
+    let result: [UserFeedResult]
 }
 
 
 // MARK: - Result
-struct UserFeedsResult: Codable {
+struct UserFeedResult: Codable {
     let feedID: Int
     let feedLoginID, feedText, feedCreatedAt, feedUpdatedAt: String
     let feedCommentCount: Int
-    let contentsList: [UserFeedsContentsList]
+    let contentsList: [UserFeedContentsList]
 
     enum CodingKeys: String, CodingKey {
         case feedID = "feedId"
@@ -26,7 +26,7 @@ struct UserFeedsResult: Codable {
 
 
 // MARK: - ContentsList
-struct UserFeedsContentsList: Codable {
+struct UserFeedContentsList: Codable {
     let contentsID: Int
     let contentsURL: String
     let createdAt, updatedAt: String

@@ -1,8 +1,8 @@
 import Foundation
 import Alamofire
 
-// MARK: - DeleteFeedsModel
-struct DeleteFeedsModel: Codable {
+// MARK: - PostCommentsModel
+struct PostCommentModel: Codable {
     let isSuccess: Bool
     let code: Int
     let message: String

@@ -2,12 +2,12 @@ import Foundation
 import Alamofire
 
 class SignUpDataManager{
-    func signUpUser(_ realName : String, _ password : String, _ loginId : String , _ birthDate : String , _ phoneNumber : String, _ viewController : UIViewController, completion: @escaping (_ data: SignUpResult) -> Void){
-        var headers: HTTPHeaders = [
+    func signUp(_ realName : String, _ password : String, _ loginId : String , _ birthDate : String , _ phoneNumber : String, _ viewController : UIViewController, completion: @escaping (_ data: SignUpResult) -> Void){
+        let headers: HTTPHeaders = [
                     "Content-Type":"application/json",
                     "Accept": "application/json"
         ]
-        var param : Parameters = [
+        let param : Parameters = [
                 "realName" : "\(realName)",
                 "password" : "\(password)",
                 "loginId" : "\(loginId)",
@@ -15,7 +15,7 @@ class SignUpDataManager{
                 "phoneNumber" : "\(phoneNumber)"
         ]
         
-        AF.request("\(Constant.BASE_URL)/users", method: .post, parameters: param ,encoding: JSONEncoding.default, headers: headers)
+        AF.request("\(Constant.BASE_URL)/sing-up", method: .post, parameters: param ,encoding: JSONEncoding.default, headers: headers)
             .responseDecodable(of: SignUpModel.self){response in
                 switch response.result {
                 case .success(let response):
